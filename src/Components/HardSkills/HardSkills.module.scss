@@ -1,0 +1,37 @@
+@import '../..//styles/index.scss';
+
+.hardSkills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    // background: linear-gradient(to bottom, transparent 0%, black 0%);
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+.codeWars {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+}
+.codeWars:hover {
+    color: #fde8fd;
+    filter: brightness(1.1);
+    text-shadow: 0px 0px 10px #ff00ff;
+}
+.appleman {
+    z-index: 1;
+    img {
+
+    }
+    p {
+        @extend %SpecialTextBig;
+        color: #fde8fd;
+        text-shadow: 0px 0px 20px #ff00ff;
+    }
+}
+

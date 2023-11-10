@@ -1,0 +1,207 @@
+@import '../..//styles/index.scss';
+
+.about {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #080808 70%, transparent 100%);
+    overflow: hidden;
+    .appleman{
+        position: absolute;
+        top: -5px;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &_man {
+            width: auto;
+            height: 700px;
+            z-index: 2;
+            animation: lightFlash 4s linear infinite;
+        }
+        &_caseimg {
+            position: absolute;
+            top: 0px;
+            left: -10px;
+            width: auto;
+            right: 0;
+            margin: 0 auto;
+            z-index: 3;
+            filter: brightness(1);
+       
+        }
+        &_light {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 1;
+            filter: brightness(1);
+            animation: lightFlash 4s linear infinite;
+        }
+        p {
+            @extend %SpecialTextBig;
+            color: #f4e2f8;
+            text-shadow: 0px 0px 20px #a111c2;
+        }
+    }
+    .speach {
+        padding: 150px 150px 300px 150px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: 80px;
+        width: 1000px;
+        height: 850px;
+        background-image: url(/public/assets/media/img/about/speach.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: lightFlash2 4s linear infinite;
+        z-index: 2;
+        p {
+            text-align: center;
+            @extend %SpecialTextMedium;
+            color: #ffffff;
+            text-shadow: 0px 0px 20px #fe5afe;
+        }
+    }
+    @media (max-width: 1600px) {
+        .appleman{
+            &_man {
+                width: auto;
+                height: 600px;
+            }
+            &_caseimg {
+            position: absolute;
+            top: 0px;
+            width: auto;
+            right: 0;
+            z-index: 3;
+            filter: brightness(1);
+            }
+            &_light {
+                position: absolute;
+                top: 20px;
+                left: -20px;
+                right: 0;
+                margin: 0 auto;
+                z-index: 1;
+                filter: brightness(1);
+                animation: lightFlash 4s linear infinite;
+            }
+        }
+        .speach {
+            right: -90px;
+            transform: scale(0.7);
+        }
+        .wire {
+            transform: scale(0.7);
+            right: -45px;
+        }
+      }
+}
+.wire {
+    position: absolute;
+    top: 0px;
+    right: -15px;
+    z-index: 1;
+}
+@keyframes lightFlash {
+    0% {
+      filter: brightness(1);
+    }
+    2% {
+        filter: brightness(0.7);
+      }
+      4% {
+        filter: brightness(1);
+      }
+      6% {
+        filter: brightness(0.7);
+      }
+      8% {
+        filter: brightness(1);
+      }
+      30% {
+        filter: brightness(1);
+      }
+      32% {
+        filter: brightness(0.8);
+      }
+      36% {
+        filter: brightness(1);
+      }
+      50% {
+        filter: brightness(1);
+      }
+      52% {
+        filter: brightness(1);
+      }
+      54% {
+        filter: brightness(0.7);
+      }
+      56% {
+        filter: brightness(1);
+      }
+      58% {
+        filter: brightness(0.6);
+      }
+      60% {
+        filter: brightness(1);
+      }
+      100% {
+        filter: brightness(1);
+      }
+  }
+
+  @keyframes lightFlash2 {
+    0% {
+      filter: brightness(1);
+    }
+    32% {
+        filter: brightness(0.7);
+      }
+      34% {
+        filter: brightness(1);
+      }
+      36% {
+        filter: brightness(0.7);
+      }
+      38% {
+        filter: brightness(1);
+      }
+      60% {
+        filter: brightness(1);
+      }
+      62% {
+        filter: brightness(0.8);
+      }
+      66% {
+        filter: brightness(1);
+      }
+      80% {
+        filter: brightness(1);
+      }
+      82% {
+        filter: brightness(1);
+      }
+      84% {
+        filter: brightness(0.7);
+      }
+      86% {
+        filter: brightness(1);
+      }
+      88% {
+        filter: brightness(0.6);
+      }
+      90% {
+        filter: brightness(1);
+      }
+      100% {
+        filter: brightness(1);
+      }
+  }
+
+

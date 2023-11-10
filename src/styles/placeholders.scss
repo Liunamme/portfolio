@@ -1,0 +1,97 @@
+%H1 {
+	font-size: 8rem;
+    font-weight: 900;
+    line-height: 87.8%;
+	font-family: $defaultFont, $rusFontB;
+}
+
+%H2 {
+	font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 87.8%;
+	font-family: $defaultFont, $rusFontB;
+}
+
+%H3 {
+	font-size: 2rem;
+	font-weight: 900;
+    line-height: 90%;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%H4 {
+	font-size: 1.5rem;
+	font-weight: 600;
+    line-height: 90%;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%TextBig {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%TextMedium {
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%TextSmall {
+	font-size: 0.5rem;
+	font-weight: 300;
+    line-height: 125%;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%BtnBig {
+		width: max-content;
+		padding: 20px;
+		border-radius: 30px;
+		font-size: 2rem;
+		border: 0;
+		font-weight: bold;
+		font-family: $defaultFont, $rusFontB;
+}
+
+%BtnMedium {
+	width: max-content;
+	padding: 15px;
+	border-radius: 30px;
+	font-size: 1.5rem;
+	border: 0;
+	font-weight: bold;
+	font-family: $defaultFont, $rusFontB;
+}
+
+%BtnSmall {
+	width: max-content;
+	padding: 10px;
+	border-radius: 30px;
+	font-size: 1rem;
+	border: 0;
+	font-weight: bold;
+	font-family: $defaultFont, $rusFontR;
+}
+
+%SpecialTextBig {
+	font-size: 4rem;
+    font-weight: 900;
+    line-height: 87.8%;
+	font-family: $defaultFont, $rusFontB;
+}
+
+%SpecialTextMedium {
+	font-size: 3rem;
+    font-weight: 900;
+    line-height: 87.8%;
+	font-family: $defaultFont, $rusFontB;
+}
+
+%SpecialTextSmall {
+	font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 87.8%;
+	font-family: $defaultFont, $rusFontB;
+}

@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    left: 0;
+    width: max-content;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border: 2px solid #9c80ff;
+    z-index: 10;
+    backdrop-filter: blur(20px);
+    color: #fff;
+    transform: translateY(-122px);
+    transition: transform 0.3s ease-in-out;
+    &_toggle {
+        position: absolute;
+        bottom: -20px;
+        height: 20px;
+        width: 200px;
+        border-radius: 0px 0px 20px 20px;
+        background-color: #9c80ff;
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    &_toggle:hover {
+        filter: brightness(0.8);
+    }
+}
+.active {
+    transform: translateY(0px);
+}
+
+.inactive:hover {
+    transform: translateY(-110px);
+}

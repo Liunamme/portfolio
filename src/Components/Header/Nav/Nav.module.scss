@@ -1,0 +1,48 @@
+@import '../../../styles/index.scss';
+nav {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 38px;
+    ul {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        li {
+            height: 100%;
+            a {
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            font-weight: bold;
+            }
+            a:hover {
+                transform: scale(1.1);
+                transition: all 0.2s ease-in-out;
+            }
+            .icons {
+                fill: #ffffff;
+                width: 32px;
+                height: 32px;
+            }
+            @extend %TextBig;
+            .active {
+                transition: all 0.2s ease-in-out;
+                color: #9c80ff;
+                fill: #9c80ff;
+            }
+            .active:hover {
+                text-shadow: none;
+                transition: all 0.2s ease-in-out;
+            } 
+            img {
+                width: 32px;
+                height: 32px;
+                stroke: #9c80ff;
+            }
+        }
+    }
+}

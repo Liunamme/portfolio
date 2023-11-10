@@ -1,0 +1,72 @@
+@import '../../styles/index.scss';
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+    background-color: #050505;
+    &_content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+    }
+
+    &_text {
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h1 {
+            @extend %H1;
+            color: #fff;
+            white-space: pre;
+        }
+        h2 {
+            @extend %H2;
+            color: rgb(156, 128, 255);
+        }
+        h3 {
+            @extend %H3;
+            color: #fff;
+            white-space: pre;
+        }
+        p {
+            @extend %TextBig;
+            color: #fff;
+            white-space: pre;
+            text-align: left;
+        }
+    }
+
+}
+
+.flashback {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/assets/media/gif/Home/FlashBack.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+    filter: blur(200px);
+}
+.imgHome {
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    filter: brightness(0.85);
+}
+@media (max-width: 1600px) {
+    .imgHome {
+        right: -50px;
+    }
+  }
