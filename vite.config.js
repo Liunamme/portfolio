@@ -1,19 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import svgr from '@svgr/rollup';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [svgr(), react(),],
-  base: 'https://liunamme.github.io/portfolio/',
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'src/main.jsx'),
-      },
-    },
-  },
-});
+  plugins: [react()],
+  base: 'https://Liunamme.github.io/portfolio/',
+})
 
 // import { defineConfig } from 'vite';
 // import react from '@vitejs/plugin-react';
