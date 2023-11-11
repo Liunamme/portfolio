@@ -1,6 +1,34 @@
 import React, { useState } from 'react';
 import style from './HardIcons.module.scss';
 import boardImg from '/assets/media/img/hardskills/board.png'
+
+import imgTechHTML from '/assets/media/icons/hardskills/technologies/techHTML.svg';
+import imgLightHTML from '/assets/media/icons/hardskills/lights/lightHTML.svg';
+
+import imgTechCSS from '/assets/media/icons/hardskills/technologies/techCSS.svg';
+import imgLightCSS from '/assets/media/icons/hardskills/lights/lightCSS.svg';
+
+import imgTechSCSS from '/assets/media/icons/hardskills/technologies/techSCSS.svg';
+import imgLightSCSS from '/assets/media/icons/hardskills/lights/lightSCSS.svg';
+
+import imgTechJS from '/assets/media/icons/hardskills/technologies/techJS.svg';
+import imgLightJS from '/assets/media/icons/hardskills/lights/lightJS.svg';
+
+import imgTechREACT from '/assets/media/icons/hardskills/technologies/techREACT.svg';
+import imgLightREACT from '/assets/media/icons/hardskills/lights/lightREACT.svg';
+
+import imgTechREDUX from '/assets/media/icons/hardskills/technologies/techREDUX.svg';
+import imgLightREDUX from '/assets/media/icons/hardskills/lights/lightREDUX.svg';
+
+import imgTechGIT from '/assets/media/icons/hardskills/technologies/techGIT.svg';
+import imgLightGIT from '/assets/media/icons/hardskills/lights/lightGIT.svg';
+
+import imgTechVITE from '/assets/media/icons/hardskills/technologies/techVITE.svg';
+import imgLightVITE from '/assets/media/icons/hardskills/lights/lightVITE.svg';
+
+import imgTechFIGMA from '/assets/media/icons/hardskills/technologies/techFIGMA.svg';
+import imgLightFIGMA from '/assets/media/icons/hardskills/lights/lightFIGMA.svg';
+
 const HardIcons = () => {
 
     const [hoveredItem, setHoveredItem] = useState(null);
@@ -14,22 +42,24 @@ const HardIcons = () => {
     };
   
     const technologies = [
-      ['HTML', '#f16529'],
-      ['CSS', '#039be5'],
-      ['SCSS', '#f06292'],
-      ['JS', '#f7ca0f'],
-      ['REACT', '#00d8ff'],
-      ['REDUX', '#764abc'],
-      ['GIT', '#f13c2e'],
-      ['VITE', '#f649f4'],
-      ['FIGMA', '#8edda8']
+      ['HTML', imgTechHTML, imgLightHTML, '#f16529'],
+      ['CSS', imgTechCSS, imgLightCSS, '#039be5'],
+      ['SCSS', imgTechSCSS, imgLightSCSS, '#f06292'],
+      ['JS', imgTechJS, imgLightJS, '#f7ca0f'],
+      ['REACT', imgTechREACT, imgLightREACT, '#00d8ff'],
+      ['REDUX', imgTechREDUX, imgLightREDUX, '#764abc'],
+      ['GIT', imgTechGIT, imgLightGIT, '#f13c2e'],
+      ['VITE', imgTechVITE, imgLightVITE, '#f649f4'],
+      ['FIGMA', imgTechFIGMA, imgLightFIGMA, '#8edda8']
     ];
   
-    const hardSkills = technologies.map(([name, color], index) => ({
+    const hardSkills = technologies.map(([name, tech, light, color], index) => ({
       name,
-      imgTech: `/assets/media/icons/hardskills/technologies/tech${name}.svg`,
-      imgLight: `/assets/media/icons/hardskills/lights/light${name}.svg`,
-  color,
+      tech,
+      light,
+      imgTech: tech,
+      imgLight: light,
+      color,
       color,
       index,
     }));
