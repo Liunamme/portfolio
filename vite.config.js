@@ -5,18 +5,12 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: '/portfolio/', // изменение base на '/portfolio/'
+  base: '/portfolio/',
   build: {
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'src/main.jsx'),
       },
-    },
-  },
-  resolve: {
-    alias: {
-      '@icons': '/public/assets/media/icons/',
-      '@img': '/public/assets/media/img',
     },
   },
 });

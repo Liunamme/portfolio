@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import style from './Nav.module.scss';
 import "intersection-observer";
-import { ReactComponent as HomeIcon } from '@icons/navbar/home.svg';
-import { ReactComponent as AboutIcon } from '@icons/navbar/about.svg';
-import { ReactComponent as HardskillsIcon } from '@icons/navbar/hardskills.svg';
-import { ReactComponent as PortfolioIcon } from '@icons/navbar/portfolio.svg';
-import { ReactComponent as Contacts } from '@icons/navbar/contacts.svg';
+import { ReactComponent as HomeIcon } from '/public/assets/media/icons/navbar/home.svg';
+import { ReactComponent as AboutIcon } from '/public/assets/media/icons/navbar/about.svg';
+import { ReactComponent as HardskillsIcon } from '/public/assets/media/icons/navbar/hardskills.svg';
+import { ReactComponent as PortfolioIcon } from '/public/assets/media/icons/navbar/portfolio.svg';
+import { ReactComponent as Contacts } from '/public/assets/media/icons/navbar/contacts.svg';
 
 function Nav( {toggle} ) {
   const [currentId, setCurrentId] = useState("");
