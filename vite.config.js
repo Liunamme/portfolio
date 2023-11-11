@@ -4,8 +4,8 @@ import svgr from '@svgr/rollup';
 import path from 'path';
 
 export default defineConfig({
-  plugins: [react(), svgr()],
-  base: '/portfolio/',
+  plugins: [svgr(), react(),],
+  base: 'https://liunamme.github.io/portfolio/',
   build: {
     rollupOptions: {
       input: {
