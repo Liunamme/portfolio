@@ -5,7 +5,7 @@ import appleman from '/assets/media/img/memoji/Projects.png'
 
 import cardMLpng from '/assets/media/img/portfolio/MafiaLegacy/cardML.png'
 import cardMLgif from '/assets/media/gif/Portfolio/MafiaLegacy/cardML.gif'
-import backgroundMLgif from '/assets/media/gif/Portfolio/MafiaLegacy/background1.gif'
+import backgroundML from '/assets/media/img/portfolio/MafiaLegacy/backgroundML.png'
 import autorizationML from '/assets/media/img/portfolio/MafiaLegacy/autorization.png'
 import gameParametresML from '/assets/media/img/portfolio/MafiaLegacy/gameParametres.png'
 import controlPanelML from '/assets/media/img/portfolio/MafiaLegacy/controlPanel.png'
@@ -14,12 +14,12 @@ import customML from '/assets/media/img/portfolio/MafiaLegacy/custom.png'
 
 import cardBWpng from '/assets/media/img/portfolio/BlackWall/cardBW.png'
 import cardBWgif from '/assets/media/gif/Portfolio/BlackWall/cardBW.gif'
-import backgroundBWgif from '/assets/media/gif/Portfolio/BlackWall/background.gif'
+import backgroundBW from '/assets/media/img/portfolio/BlackWall/backgroundBW.png'
 
 
 import cardEGpng from '/assets/media/img/portfolio/EnglishGuru/cardEG.png'
 import cardEGgif from '/assets/media/gif/Portfolio/EnglishGuru/cardEG.gif'
-import backgroundEGgif from '/assets/media/gif/Portfolio/EnglishGuru/background.gif'
+import backgroundEG from '/assets/media/img/portfolio/EnglishGuru/backgroundEG.png'
 import parametresEG from '/assets/media/img/portfolio/EnglishGuru/parametres.png'
 import testEG from '/assets/media/img/portfolio/EnglishGuru/test.png'
 import resultsEG from '/assets/media/img/portfolio/EnglishGuru/results.png'
@@ -44,7 +44,7 @@ const Portfolio = () => {
             'Мой пет-проект представляет собой SPA React приложение, предназначенное для организации игры "Мафия". Это приложение активно используется различными дискорд серверами для проведения городской мафии. Кроме того, к моему приложению написан Discord бот, который позволяет также проводить игру на платформе Discord. Игроки могут использовать приложение как самостоятельно, так и совместно с ботом.',
             'В процессе разработки этого пет-проекта, я освоил множество технологий React. В приложении применены различные React хуки, реализовано управление состоянием, применен компонентный подход разработки, работа с данными, кастомизация внешнего вида и функционала приложения. Также реализована авторизация пользователей, хотя она ограничена возможностями отсутствия backend-части.',
           ],
-          img: backgroundMLgif,
+          img: backgroundML,
         },
         {
           header: 'Авторизация',
@@ -119,7 +119,7 @@ const Portfolio = () => {
           text: [
             `Вёрстка имиджевого сайта криптовалютного проекта 'BlackWall'`
           ],
-          img: backgroundBWgif,
+          img: backgroundBW,
         }
       ]
     },
@@ -141,7 +141,7 @@ const Portfolio = () => {
             `● После теста вы можете проанализировать свои ошибки и изучить правильные ответы, чтобы улучшить свои знания английского языка.`,
             `Учите английский с EnglishGuru и улучшайте свои навыки в изучении иностранных слов!`,
           ],
-          img: backgroundEGgif,
+          img: backgroundEG,
         },
         {
           header: 'Настройка теста',
