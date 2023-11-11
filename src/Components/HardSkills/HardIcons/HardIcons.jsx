@@ -27,8 +27,9 @@ const HardIcons = () => {
   
     const hardSkills = technologies.map(([name, color], index) => ({
       name,
-      imgTech: `../public/assets/media/icons/hardskills/technologies/tech${name}.svg`,
-      imgLight: `../public/assets/media/icons/hardskills/lights/light${name}.svg`,
+      imgTech: `/assets/media/icons/hardskills/technologies/tech${name}.svg`,
+      imgLight: `/assets/media/icons/hardskills/lights/light${name}.svg`,
+  color,
       color,
       index,
     }));

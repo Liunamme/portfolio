@@ -3,6 +3,26 @@ import styled from 'styled-components';
 import style from './Portfolio.module.scss';
 import appleman from '/assets/media/img/memoji/Projects.png'
 
+import cardMLpng from '/assets/media/img/portfolio/MafiaLegacy/cardML.png'
+import cardMLgif from '/assets/media/gif/Portfolio/MafiaLegacy/cardML.gif'
+import backgroundMLgif from '/assets/media/gif/Portfolio/MafiaLegacy/background1.gif'
+import autorizationML from '/assets/media/img/portfolio/MafiaLegacy/autorization.png'
+import gameParametresML from '/assets/media/img/portfolio/MafiaLegacy/gameParametres.png'
+import controlPanelML from '/assets/media/img/portfolio/MafiaLegacy/controlPanel.png'
+import resultGameML from '/assets/media/img/portfolio/MafiaLegacy/resultGame.png'
+import customML from '/assets/media/img/portfolio/MafiaLegacy/custom.png'
+
+import cardBWpng from '/assets/media/img/portfolio/BlackWall/cardBW.png'
+import cardBWgif from '/assets/media/gif/Portfolio/BlackWall/cardBW.gif'
+import backgroundBWgif from '/assets/media/gif/Portfolio/BlackWall/background.gif'
+
+
+import cardEGpng from '/assets/media/img/portfolio/EnglishGuru/cardEG.png'
+import cardEGgif from '/assets/media/gif/Portfolio/EnglishGuru/cardEG.gif'
+import backgroundEGgif from '/assets/media/gif/Portfolio/EnglishGuru/background.gif'
+import parametresEG from '/assets/media/img/portfolio/EnglishGuru/parametres.png'
+import testEG from '/assets/media/img/portfolio/EnglishGuru/test.png'
+import resultsEG from '/assets/media/img/portfolio/EnglishGuru/results.png'
 
 
 const Portfolio = () => {
@@ -14,8 +34,8 @@ const Portfolio = () => {
       name: 'Mafia Legacy',
       link: 'https://liunamme.github.io/MafiaLegacy/',
       card: {
-        img: '/assets/media/img/portfolio/MafiaLegacy/cardML.png',
-        gif: '/assets/media/gif/Portfolio/MafiaLegacy/cardML.gif',
+        img: cardMLpng,
+        gif: cardMLgif,
       },
       sections: [
         {
@@ -24,7 +44,7 @@ const Portfolio = () => {
             'Мой пет-проект представляет собой SPA React приложение, предназначенное для организации игры "Мафия". Это приложение активно используется различными дискорд серверами для проведения городской мафии. Кроме того, к моему приложению написан Discord бот, который позволяет также проводить игру на платформе Discord. Игроки могут использовать приложение как самостоятельно, так и совместно с ботом.',
             'В процессе разработки этого пет-проекта, я освоил множество технологий React. В приложении применены различные React хуки, реализовано управление состоянием, применен компонентный подход разработки, работа с данными, кастомизация внешнего вида и функционала приложения. Также реализована авторизация пользователей, хотя она ограничена возможностями отсутствия backend-части.',
           ],
-          img: '/assets/media/gif/Portfolio/MafiaLegacy/background1.gif',
+          img: backgroundMLgif,
         },
         {
           header: 'Авторизация',
@@ -33,7 +53,7 @@ const Portfolio = () => {
             'Также есть демо-аккаунт, чтобы вы могли посмотреть приложение (P.s запрещается проводить игры через демо-аккаунт на постоянной основе, он предоставлен для ознакомления!)',
             'Демо аккаунт: Логин - "Demo"; Пароль - "Demo"'
           ],
-          img: '/assets/media/img/portfolio/MafiaLegacy/autorization.png',
+          img: autorizationML,
         },
         {
           header: 'Параметры игры',
@@ -42,7 +62,7 @@ const Portfolio = () => {
             'Когда вы укажите параметры игры, у вас появится окошко с рандомайзером ролей/слотов, после зандома - вы отправляете игрокам их роли',
             'Также есть функция автоматизации игры через бота (если он согласован и может работать с этим приложением). Бот самостоятельно указывает количество игроков, распределяет и рассылает роли',
           ],
-          img: '/assets/media/img/portfolio/MafiaLegacy/gameParametres.png',
+          img: gameParametresML,
         },
         {
           header: 'Панель управления',
@@ -63,7 +83,7 @@ const Portfolio = () => {
             `Тема - кнопка, по нажатию которой появится возможность выбрать тему интерфейса, а также отключить эффекты(если слабый пк, или неприятно для глаз);`,
             `Никнейм ведущего - отображает никнейм авторизованного ведущего (P.s сделано, чтобы люди не давали свои аккаунты другим - за это я заберу доступ к аккаунту), по нажатию на никнейм - можно выйти из аккаунта`,  
             ],
-          img: '/assets/media/img/portfolio/MafiaLegacy/controlPanel.png',
+          img: controlPanelML,
         },
         {
           header: 'Результаты игры',
@@ -73,7 +93,7 @@ const Portfolio = () => {
             `Вторая панель - отображают историю игры (кого когда кикнули и по какой причине и его роль), а также время сколько длилась игра;`,
             `Третья панель - отображает игровые данные: Ники/номера игроков, роли, фолы, использованы ли +30(при включении) и стостояние игрока на конец игры. Также дату, когда была проведена игра.`,
           ],
-          img: '/assets/media/img/portfolio/MafiaLegacy/resultGame.png',
+          img: resultGameML,
         },
         {
           header: 'Кастомизация',
@@ -82,7 +102,7 @@ const Portfolio = () => {
             `Вы можете выбрать тему из множества предложенных на выбор`,
             `Вы можете отключить эффекты, если у вас слабый пк, или они вам не нравятся`,
           ],
-          img: '/assets/media/img/portfolio/MafiaLegacy/custom.png',
+          img: customML,
         },
       ]
     },
@@ -90,8 +110,8 @@ const Portfolio = () => {
       name: 'Black Wall',
       link: 'https://liunamme.github.io/BlackWall/',
       card: {
-        img: '/assets/media/img/portfolio/BlackWall/cardBW.png',
-        gif: '/assets/media/gif/Portfolio/BlackWall/cardBW.gif',
+        img: cardBWpng,
+        gif: cardBWgif,
       },
       sections: [
         {
@@ -99,7 +119,7 @@ const Portfolio = () => {
           text: [
             `Вёрстка имиджевого сайта криптовалютного проекта 'BlackWall'`
           ],
-          img: '/assets/media/gif/Portfolio/BlackWall/background.gif',
+          img: backgroundBWgif,
         }
       ]
     },
@@ -107,8 +127,8 @@ const Portfolio = () => {
       name: 'English Guru',
       link: 'https://liunamme.github.io/EnglishGuru/',
       card: {
-        img: '/assets/media/img/portfolio/EnglishGuru/cardEG.png',
-        gif: '/assets/media/gif/Portfolio/EnglishGuru/cardEG.gif',
+        img: cardEGpng,
+        gif: cardEGgif,
       },
       sections: [
         {
@@ -121,7 +141,7 @@ const Portfolio = () => {
             `● После теста вы можете проанализировать свои ошибки и изучить правильные ответы, чтобы улучшить свои знания английского языка.`,
             `Учите английский с EnglishGuru и улучшайте свои навыки в изучении иностранных слов!`,
           ],
-          img: '/assets/media/gif/Portfolio/EnglishGuru/background.gif',
+          img: backgroundEGgif,
         },
         {
           header: 'Настройка теста',
@@ -152,7 +172,7 @@ const Portfolio = () => {
             `,
 
           ],
-          img: '/assets/media/img/portfolio/EnglishGuru/parametres.png',
+          img: parametresEG,
         },
         {
           header: 'Прохождение теста',
@@ -170,7 +190,7 @@ const Portfolio = () => {
               ・Кнопка 'Завершить тест' завершает тестирование и выводит результаты;
               `,
           ],
-          img: '/assets/media/img/portfolio/EnglishGuru/test.png',
+          img: testEG,
         },
         {
           header: 'Результаты теста',
@@ -184,7 +204,7 @@ const Portfolio = () => {
               ・Ваш ответ (красным цветом);
             `,
           ],
-          img: '/assets/media/img/portfolio/EnglishGuru/results.png',
+          img: resultsEG,
         },
       ]
     },
