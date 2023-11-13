@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Contacts.module.scss';
-import hillsImg from '/assets/media/img/contacts/hills.png'
+import hillsImg from '/assets/media/img/contacts/hills.jpg'
 import cosmonaut from '/assets/media/img/contacts/back/cosmonaut.png'
 import jupiter from '/assets/media/img/contacts/back/jupiter.png'
 import meteor from '/assets/media/img/contacts/back/meteor.png'
@@ -9,11 +9,11 @@ import nlo from '/assets/media/img/contacts/back/nlo.png'
 import saturn from '/assets/media/img/contacts/back/saturn.png'
 import appleman from '/assets/media/img/contacts/appleman.png'
 
-import dc from '/assets/media/icons/contacts/dc.png'
-import gh from '/assets/media/icons/contacts/gh.png'
-import inst from '/assets/media/icons/contacts/inst.png'
-import ln from '/assets/media/icons/contacts/ln.png'
-import tg from '/assets/media/icons/contacts/tg.png'
+import dc from '/assets/media/icons/contacts/dc.svg'
+import gh from '/assets/media/icons/contacts/gh.svg'
+import inst from '/assets/media/icons/contacts/inst.svg'
+import ln from '/assets/media/icons/contacts/ln.svg'
+import tg from '/assets/media/icons/contacts/tg.svg'
 
 
 const Contacts = () => {
@@ -44,7 +44,7 @@ const Contacts = () => {
             <div className={style.spaceImg}></div>
             <div className={style.appleman}>
                 <img src={appleman} alt="" />
-                <p>КОНТАКТЫ</p>
+                <p data="КОНТАКТЫ">КОНТАКТЫ</p>
             </div>
             <div className={style.contactsInfo}>
                     <div className={style.contactsInfo_socials}>

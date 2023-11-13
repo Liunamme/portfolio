@@ -68,7 +68,7 @@ a {
 	color: inherit;
 	text-decoration: none;
   }
-  button {
+button {
     @extend %BtnMedium;
 	background-color: rgb(156, 128, 255);
 }

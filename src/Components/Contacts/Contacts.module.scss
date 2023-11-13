@@ -101,7 +101,6 @@
         @extend %SpecialTextBig;
         color: #fff;
         text-shadow: 0px 0px 20px #fff;
-        -webkit-text-shadow: 0px 0px 20px #fff;
         
     }
 }
@@ -128,13 +127,11 @@
         background-color: #fff;
         border-radius: 20px;
         box-shadow: 0px 0px 30px 10px #fff;
-        -webkit-box-shadow: 0px 0px 30px 10px #fff;
         
     }
     &_text {
         @extend %SpecialTextMedium;
         color: #fff;
-        -webkit-text-shadow: 0px 0px 20px #fff;
         text-shadow: 0px 0px 20px #fff;
         margin-top: 40px
     }
@@ -153,7 +150,6 @@
     &_email {
         @extend %SpecialTextSmall;
         color: #fff;
-        -webkit-text-shadow: 0px 0px 20px #fff;
         text-shadow: 0px 0px 20px #fff;
         margin-bottom: 20px;
         transition: transform 0.3s ease-in-out; 

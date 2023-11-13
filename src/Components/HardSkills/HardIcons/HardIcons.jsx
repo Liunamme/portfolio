@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import style from './HardIcons.module.scss';
+
 import boardImg from '/assets/media/img/hardskills/board.png'
 
 import imgTechHTML from '/assets/media/icons/hardskills/technologies/techHTML.svg';

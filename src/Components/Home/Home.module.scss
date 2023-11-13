@@ -44,19 +44,11 @@
 
 }
 
-.flashback {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/public/assets/media/gif/Home/FlashBack.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    opacity: 1;
-    filter: blur(200px);
+.btn {
+    @extend %BtnBig;
+    background-color: rgb(156, 128, 255);
 }
+
 .imgHome {
     bottom: 0;
     right: 0;

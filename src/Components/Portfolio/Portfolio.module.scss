@@ -7,6 +7,8 @@
     overflow: hidden;
     .appleman {
         position: absolute;
+        height: 300px;
+        height: 300px;
         bottom: 0;
         right: 20px;
         z-index: 4;
@@ -14,7 +16,7 @@
         flex-direction: column;
         img {
             height: 300px;
-            width: max-content;
+            width: 300px;
         }
         h1 {
             position: absolute;
