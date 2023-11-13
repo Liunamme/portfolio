@@ -12,7 +12,7 @@ const Home = () => {
                 <h1>{`Задорожный\nЭммануил`}</h1>
                 <h2>FRONTEND REACT DEVELOPER</h2>
                 <p>{`Я Frontend разработчик, с опытом создания и проектирования \nSPA/MPA React приложений, Web игр, лендингов, интернет магазинов`}</p>
-                <a className={style.btn}>Сотрудничество</a>
+                <a className={style.btn} href="mailto:liunamme.web@gmail.com" >Сотрудничество</a>
             </div>
             <img src={MemojiHome} alt=" " className={style.imgHome}/>
         </div>
