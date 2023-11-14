@@ -265,16 +265,6 @@ useEffect(() => {
     }
   };
 
-  useEffect(() => {
-    console.log(currentProject)
-  }
-    ,[currentProject])
-
-    useEffect(() => {
-      console.log(currentSection)
-    }
-      ,[currentSection])
-
   return (
     <div id="portfolio" className={style.portfolio}>
       <div className={style.appleman}>
