@@ -44,6 +44,7 @@
             @extend %SpecialTextBig;
             color: #f4e2f8;
             text-shadow: 0px 0px 20px #a111c2;
+            animation: lightFlash 4s linear infinite;
         }
     }
     .speach {

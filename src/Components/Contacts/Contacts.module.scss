@@ -166,6 +166,12 @@
         &_icons {
             transform: scale(0.8);
         }
+        &_email {
+          transform: scale(0.8);
+      }
+      &_email:hover {
+        transform: scale(0.8) translateY(-10px);
+    }
     }
   }
 

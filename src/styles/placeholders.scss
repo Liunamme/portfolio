@@ -1,47 +1,49 @@
 %H1 {
-	font-size: 8rem;
+	font-size: 6.5rem;
 	font-weight: 400;
-    line-height: 87.8%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 }
 
 %H2 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	font-weight: 400;
-    line-height: 87.8%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 }
 
 %H3 {
 	font-size: 2rem;
 	font-weight: 400;
-    line-height: 90%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 }
 
 %H4 {
 	font-size: 1.5rem;
 	font-weight: 400;
-    line-height: 90%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 }
 
 %TextBig {
 	font-size: 1.5rem;
 	font-weight: 400;
+	line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 }
 
 %TextMedium {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 400;
+	line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 }
 
 %TextSmall {
-	font-size: 0.5rem;
+	font-size: 0.75rem;
 	font-weight: 300;
-    line-height: 125%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 }
 
@@ -52,6 +54,7 @@
 		font-size: 2rem;
 		border: 0;
 		font-weight: 400;
+		line-height: 100%;
 		font-family: $defaultFont, $rusFontB;
 		cursor: pointer;
 }
@@ -63,6 +66,7 @@
 	font-size: 1.5rem;
 	border: 0;
 	font-weight: 400;
+	line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 	cursor: pointer;
 }
@@ -74,27 +78,28 @@
 	font-size: 1rem;
 	border: 0;
 	font-weight: 400;
+	line-height: 100%;
 	font-family: $defaultFont, $rusFontR;
 	cursor: pointer;
 }
 
 %SpecialTextBig {
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 400;
-    line-height: 87.8%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 }
 
 %SpecialTextMedium {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 400;
-    line-height: 87.8%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 }
 
 %SpecialTextSmall {
 	font-size: 2.5rem;
 	font-weight: 400;
-    line-height: 87.8%;
+    line-height: 100%;
 	font-family: $defaultFont, $rusFontB;
 }

@@ -56,7 +56,9 @@
                 gap: 50px;
                 text-align: center;
                 justify-content: center;
+                max-width: 90%;
                 li {
+                    @extend %TextMedium;
                     display: flex;
                     align-items: center;
                     cursor: pointer;
@@ -91,10 +93,11 @@
 
                 }
                 p {
-                    @extend %TextBig;
+                    @extend %TextMedium;
                     text-align: start;
                     margin: 0;
                     white-space: pre-line;
+                    line-height: 150%;
                 }
             }
             &_background {
@@ -149,7 +152,7 @@
         }
     }
     &_link {
-        @extend %BtnBig;
+        @extend %BtnMedium;
         position: absolute;
         bottom: 75px;
         left: 50px;
@@ -172,9 +175,6 @@
         }
         &_sections {
             &_nav {
-                li {
-                    font-size: 1.2rem;
-                }
                 
             }
             &_section {

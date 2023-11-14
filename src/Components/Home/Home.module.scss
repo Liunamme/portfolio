@@ -35,7 +35,7 @@
             white-space: pre;
         }
         p {
-            @extend %TextBig;
+            @extend %TextMedium;
             color: #fff;
             white-space: pre;
             text-align: left;
@@ -45,7 +45,7 @@
 }
 
 .btn {
-    @extend %BtnBig;
+    @extend %BtnMedium;
     background-color: rgb(156, 128, 255);
     color: #000;
 
